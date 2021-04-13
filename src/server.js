@@ -5,7 +5,7 @@ const init = async () => {
   const server = Hapi.server({
     port: 5000,
     // eslint-disable-next-line max-len
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.39.224',
+    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.36.19',
   });
 
   server.route(routes);
